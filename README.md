@@ -19,3 +19,14 @@ Miva Template Language (MVT) syntax plugin for Sublime Text 2/3.
 * Type "Package Control: Install Package" ... Press ENTER.
 * Search for "MVT", "Miva Template Language" or any similar search term ... Press ENTER.
 * Done!
+
+### Plugins that Work Well with Miva Template Language (MVT)
+* [DefaultFileType](https://github.com/spadgos/sublime-DefaultFileType) - This package sets the default file type of new files to be either the same as the current file, or a predefined default.
+
+Here is my `default_file_type.sublime-settings` file contents:
+```json
+{
+	"default_new_file_syntax": "Packages/Miva Template Language (MVT)/MVT.tmLanguage",
+	"use_current_file_syntax": false
+}
+```
